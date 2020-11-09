@@ -1,0 +1,201 @@
+Output files are saved in results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316
+Observation space: Box(17,)
+Action space: Box(6,)
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316 step:5000 episode:5 last_R: -243.6376033224667 average_R:-289.35328851342945
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', nan), ('average_q2', nan), ('average_q_func1_loss', nan), ('average_q_func2_loss', nan), ('n_updates', 0), ('average_entropy', nan), ('temperature', 1.0)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 1000 R: 7.402937682684787
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 1000 R: 5.318148973140751
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 1000 R: -32.64657102056244
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 1000 R: -50.643012809981215
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 1000 R: 32.121228443934086
+INFO:pfrl.experiments.train_agent_batch:The best score is updated -3.4028235e+38 -> -7.689453746156806
+INFO:pfrl.experiments.train_agent_batch:Saved the agent to results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316/best
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316 step:10000 episode:10 last_R: -224.42494511438315 average_R:-280.5442229496204
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 0.025867315), ('average_q2', 0.8713388), ('average_q_func1_loss', 49.53554153442383), ('average_q_func2_loss', 54.03933334350586), ('n_updates', 1), ('average_entropy', -4.256795), ('temperature', 0.9997000694274902)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 1000 R: 3.725473703862913
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 1000 R: 29.9242968783154
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 1000 R: -207.04757983572998
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 1000 R: -75.73609950197003
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 1000 R: 56.772350940836844
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316 step:15000 episode:15 last_R: -193.88121023103085 average_R:-247.23244573597353
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 36.265163), ('average_q2', 36.311077), ('average_q_func1_loss', 0.6953222250938416), ('average_q_func2_loss', 0.7198068624734879), ('n_updates', 5001), ('average_entropy', 3.6123922), ('temperature', 0.2888932228088379)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 1000 R: -11.443604433251554
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 1000 R: -6.203232907602378
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 1000 R: -17.089507331110344
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 1000 R: -14.740663303778152
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 1000 R: -9.584802469716692
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316 step:20000 episode:20 last_R: -275.86441644604446 average_R:-255.63612790581573
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 36.8231), ('average_q2', 36.861538), ('average_q_func1_loss', 0.7491488230228424), ('average_q_func2_loss', 0.8079554271697998), ('n_updates', 10001), ('average_entropy', 1.7999498), ('temperature', 0.09910263866186142)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 1000 R: 6.25728880662288
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 1000 R: 9.348450025469592
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 1000 R: 15.171396298651134
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 1000 R: -9.562149129726725
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 1000 R: 21.58225057308591
+INFO:pfrl.experiments.train_agent_batch:The best score is updated -7.689453746156806 -> 8.559447314820558
+INFO:pfrl.experiments.train_agent_batch:Saved the agent to results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316/best
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316 step:25000 episode:25 last_R: 493.3578166232847 average_R:-151.13178937048284
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 33.19204), ('average_q2', 33.279976), ('average_q_func1_loss', 0.813340328335762), ('average_q_func2_loss', 0.8848572373390198), ('n_updates', 15001), ('average_entropy', -1.2317356), ('temperature', 0.03602922707796097)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 1000 R: 37.397055671467044
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 1000 R: 107.16564366386517
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 1000 R: 397.73264090527226
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 1000 R: 182.42286055906982
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 1000 R: -46.746211379347706
+INFO:pfrl.experiments.train_agent_batch:The best score is updated 8.559447314820558 -> 135.59439788406533
+INFO:pfrl.experiments.train_agent_batch:Saved the agent to results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316/best
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316 step:30000 episode:30 last_R: 988.5088015564857 average_R:-30.04141477509596
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 33.614674), ('average_q2', 33.54658), ('average_q_func1_loss', 1.1692493057250977), ('average_q_func2_loss', 1.214757000207901), ('n_updates', 20001), ('average_entropy', -5.3501678), ('temperature', 0.016579989343881607)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 1000 R: 1985.6453439860666
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 1000 R: 2139.7901719118063
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 1000 R: 2056.5512528435747
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 1000 R: 2012.1464118598772
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 1000 R: 2009.4167773402642
+INFO:pfrl.experiments.train_agent_batch:The best score is updated 135.59439788406533 -> 2040.7099915883177
+INFO:pfrl.experiments.train_agent_batch:Saved the agent to results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316/best
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316 step:35000 episode:35 last_R: 2398.968423675166 average_R:274.4693376001135
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 51.47785), ('average_q2', 51.28726), ('average_q_func1_loss', 1.7064165651798249), ('average_q_func2_loss', 1.7062726628780365), ('n_updates', 25001), ('average_entropy', -6.2516265), ('temperature', 0.02324223704636097)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 1000 R: 2394.972079855391
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 1000 R: 2598.9648408933767
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 1000 R: 2311.9274618952713
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 1000 R: 2293.152034327434
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 1000 R: 2363.4416617096936
+INFO:pfrl.experiments.train_agent_batch:The best score is updated 2040.7099915883177 -> 2392.491615736233
+INFO:pfrl.experiments.train_agent_batch:Saved the agent to results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316/best
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316 step:40000 episode:40 last_R: 2028.1161490261993 average_R:533.9934219986897
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 63.592274), ('average_q2', 63.639908), ('average_q_func1_loss', 2.329263879060745), ('average_q_func2_loss', 2.391023362874985), ('n_updates', 30001), ('average_entropy', -6.1475096), ('temperature', 0.03358257934451103)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 1000 R: 2669.157747422149
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 1000 R: 2621.0122996676246
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 1000 R: 2905.7351427374465
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 1000 R: 2499.5363453430787
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 1000 R: 2988.1762273434383
+INFO:pfrl.experiments.train_agent_batch:The best score is updated 2392.491615736233 -> 2736.723552502747
+INFO:pfrl.experiments.train_agent_batch:Saved the agent to results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316/best
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316 step:45000 episode:45 last_R: 3533.9950924580676 average_R:817.533419925525
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 85.82672), ('average_q2', 85.845795), ('average_q_func1_loss', 2.982753438949585), ('average_q_func2_loss', 3.0879612708091737), ('n_updates', 35001), ('average_entropy', -5.7986774), ('temperature', 0.0374034121632576)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 1000 R: 3295.760416809358
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 1000 R: 3385.4730174791075
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 1000 R: 3151.1464938225863
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 1000 R: 3697.2523709139905
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 1000 R: 3362.7119545293585
+INFO:pfrl.experiments.train_agent_batch:The best score is updated 2736.723552502747 -> 3378.4688507108804
+INFO:pfrl.experiments.train_agent_batch:Saved the agent to results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316/best
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316 step:50000 episode:50 last_R: 3669.3354222175844 average_R:1037.828168651747
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 106.65189), ('average_q2', 106.85812), ('average_q_func1_loss', 3.720688021183014), ('average_q_func2_loss', 3.820376114845276), ('n_updates', 40001), ('average_entropy', -6.052261), ('temperature', 0.045043621212244034)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 1000 R: 390.96910651162386
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 1000 R: 2130.30661249878
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 1000 R: 3506.9826458787243
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 1000 R: 429.11869023432985
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 1000 R: 1177.5394801598393
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316 step:55000 episode:55 last_R: 3521.573853204432 average_R:1211.9772744927263
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 120.1478), ('average_q2', 119.97823), ('average_q_func1_loss', 4.438438231945038), ('average_q_func2_loss', 4.613122344017029), ('n_updates', 45001), ('average_entropy', -5.7049932), ('temperature', 0.05006886646151543)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 1000 R: 4048.287227174612
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 1000 R: 3876.7194910712346
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 1000 R: 1831.5191261962245
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 1000 R: 3864.579996275588
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 1000 R: 3738.471387972181
+INFO:pfrl.experiments.train_agent_batch:The best score is updated 3378.4688507108804 -> 3471.915445737968
+INFO:pfrl.experiments.train_agent_batch:Saved the agent to results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316/best
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316 step:60000 episode:60 last_R: 3524.7182101129 average_R:1414.3484391473964
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 144.62321), ('average_q2', 144.63159), ('average_q_func1_loss', 5.109027562141418), ('average_q_func2_loss', 5.13206377029419), ('n_updates', 50001), ('average_entropy', -6.1694813), ('temperature', 0.05585925281047821)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 1000 R: 4042.004178375239
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 1000 R: 4016.9887697765275
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 1000 R: 4114.1415101267685
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 1000 R: 3661.4219646710203
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 1000 R: 4170.907412821609
+INFO:pfrl.experiments.train_agent_batch:The best score is updated 3471.915445737968 -> 4001.0927671542327
+INFO:pfrl.experiments.train_agent_batch:Saved the agent to results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316/best
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316 step:65000 episode:65 last_R: 3979.952105200047 average_R:1609.0410998489858
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 161.25339), ('average_q2', 161.55165), ('average_q_func1_loss', 4.7999455666542055), ('average_q_func2_loss', 4.821976094245911), ('n_updates', 55001), ('average_entropy', -6.016047), ('temperature', 0.06284696608781815)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 1000 R: 4213.7661967024305
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 1000 R: 4494.651472622287
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 1000 R: 4318.697370980057
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 1000 R: 4354.119006018765
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 1000 R: 4383.644113797235
+INFO:pfrl.experiments.train_agent_batch:The best score is updated 4001.0927671542327 -> 4352.975632024155
+INFO:pfrl.experiments.train_agent_batch:Saved the agent to results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316/best
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316 step:70000 episode:70 last_R: 4472.38934586655 average_R:1795.5940239600593
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 168.2611), ('average_q2', 168.3809), ('average_q_func1_loss', 5.060484266281128), ('average_q_func2_loss', 5.157233214378357), ('n_updates', 60001), ('average_entropy', -5.730539), ('temperature', 0.06680890917778015)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 1000 R: 4417.712245776173
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 1000 R: 4488.746272370429
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 1000 R: 4533.079992848646
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 1000 R: 4648.683961960961
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 1000 R: 4397.018180561253
+INFO:pfrl.experiments.train_agent_batch:The best score is updated 4352.975632024155 -> 4497.0481307034925
+INFO:pfrl.experiments.train_agent_batch:Saved the agent to results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316/best
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316 step:75000 episode:75 last_R: 4689.39083046866 average_R:1967.1585945858128
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 190.56915), ('average_q2', 190.44655), ('average_q_func1_loss', 5.2442810082435605), ('average_q_func2_loss', 5.354180588722229), ('n_updates', 65001), ('average_entropy', -6.14801), ('temperature', 0.07439751923084259)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 1000 R: 4647.909207733854
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 1000 R: 4690.450809444119
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 1000 R: 4915.051631402505
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 1000 R: 4569.02655744046
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 1000 R: 4646.552322453419
+INFO:pfrl.experiments.train_agent_batch:The best score is updated 4497.0481307034925 -> 4693.798105694871
+INFO:pfrl.experiments.train_agent_batch:Saved the agent to results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316/best
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316 step:80000 episode:80 last_R: 4693.701006719567 average_R:2073.7204312419985
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 205.3808), ('average_q2', 205.19638), ('average_q_func1_loss', 5.612167627811432), ('average_q_func2_loss', 5.783593094348907), ('n_updates', 70001), ('average_entropy', -6.0076447), ('temperature', 0.07761409878730774)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 1000 R: 4885.601460865222
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 1000 R: 4800.4944204622925
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 1000 R: 4713.80503800504
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 1000 R: 4815.062248302853
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 1000 R: 4886.741067292068
+INFO:pfrl.experiments.train_agent_batch:The best score is updated 4693.798105694871 -> 4820.340846985495
+INFO:pfrl.experiments.train_agent_batch:Saved the agent to results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316/best
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316 step:85000 episode:85 last_R: 4755.630245210549 average_R:2233.0244470382922
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 220.69792), ('average_q2', 220.566), ('average_q_func1_loss', 5.952932510375977), ('average_q_func2_loss', 6.184475584030151), ('n_updates', 75001), ('average_entropy', -5.832544), ('temperature', 0.08388862013816833)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 1000 R: 5117.9854149719085
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 1000 R: 4888.341680452947
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 1000 R: 4957.1696227926295
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 1000 R: 1739.7247946913628
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 1000 R: 4868.448930023073
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316 step:90000 episode:90 last_R: 5006.41087752768 average_R:2376.43345324398
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 228.4477), ('average_q2', 228.65416), ('average_q_func1_loss', 5.819007487297058), ('average_q_func2_loss', 5.984094891548157), ('n_updates', 80001), ('average_entropy', -5.6478386), ('temperature', 0.08913826942443848)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 1000 R: 5098.230701929442
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 1000 R: 4972.76318205747
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 1000 R: 5242.51773042791
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 1000 R: 5092.144448117582
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 1000 R: 5050.832416787548
+INFO:pfrl.experiments.train_agent_batch:The best score is updated 4820.340846985495 -> 5091.29769586399
+INFO:pfrl.experiments.train_agent_batch:Saved the agent to results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316/best
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316 step:95000 episode:95 last_R: 5192.76124732324 average_R:2513.423830398176
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 251.94841), ('average_q2', 251.39725), ('average_q_func1_loss', 6.1053935289382935), ('average_q_func2_loss', 6.321608276367187), ('n_updates', 85001), ('average_entropy', -6.1324472), ('temperature', 0.094071164727211)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 1000 R: 5136.285721594486
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 1000 R: 5350.664105860205
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 1000 R: 5172.1442001682935
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 1000 R: 5312.795715743262
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 1000 R: 5247.059788096855
+INFO:pfrl.experiments.train_agent_batch:The best score is updated 5091.29769586399 -> 5243.789906292621
+INFO:pfrl.experiments.train_agent_batch:Saved the agent to results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316/best
+INFO:pfrl.experiments.train_agent_batch:Saved the agent to results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316/100000_checkpoint
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316 step:100000 episode:100 last_R: 5371.802939041831 average_R:2650.3742433303837
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 255.982), ('average_q2', 256.10233), ('average_q_func1_loss', 5.925317354202271), ('average_q_func2_loss', 6.194030814170837), ('n_updates', 90001), ('average_entropy', -6.0956745), ('temperature', 0.09844459593296051)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 1000 R: 5546.907234199593
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 1000 R: 5003.952019246407
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 1000 R: 5490.554807943766
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 1000 R: 5340.239626354605
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 1000 R: 5379.838268777713
+INFO:pfrl.experiments.train_agent_batch:The best score is updated 5243.789906292621 -> 5352.298391304417
+INFO:pfrl.experiments.train_agent_batch:Saved the agent to results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316/best
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316 step:105000 episode:105 last_R: 5189.063196594061 average_R:2925.308390617593
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 265.04037), ('average_q2', 265.06046), ('average_q_func1_loss', 6.191584386825562), ('average_q_func2_loss', 6.405717012882232), ('n_updates', 95001), ('average_entropy', -5.9875007), ('temperature', 0.1030629426240921)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 1000 R: 5312.713646165635
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 1000 R: 5096.924508817478
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 1000 R: 5324.0872907609855
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 1000 R: 5384.343505373181
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 1000 R: 5355.501768474159
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316 step:110000 episode:110 last_R: 5391.262487556001 average_R:3210.7299654064227
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 283.27734), ('average_q2', 283.21533), ('average_q_func1_loss', 6.358156936168671), ('average_q_func2_loss', 6.817634882926941), ('n_updates', 100001), ('average_entropy', -5.7507997), ('temperature', 0.10798387229442596)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 1000 R: 5587.369788427451
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 1000 R: 5503.887211727759
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 1000 R: 5713.897306068689
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 1000 R: 5530.421829505056
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 1000 R: 5513.639313040363
+INFO:pfrl.experiments.train_agent_batch:The best score is updated 5352.298391304417 -> 5569.843089753864
+INFO:pfrl.experiments.train_agent_batch:Saved the agent to results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316/best
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316 step:115000 episode:115 last_R: 5413.196690026365 average_R:3495.4694980887907
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 287.4947), ('average_q2', 287.3065), ('average_q_func1_loss', 6.137796854972839), ('average_q_func2_loss', 6.535675668716431), ('n_updates', 105001), ('average_entropy', -5.753415), ('temperature', 0.10924089699983597)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 1000 R: 6013.003341060334
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 1000 R: 5892.378479726364
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 1000 R: 5745.347826827093
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 1000 R: 5924.461208133233
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 1000 R: 5627.037942642553
+INFO:pfrl.experiments.train_agent_batch:The best score is updated 5569.843089753864 -> 5840.445759677916
+INFO:pfrl.experiments.train_agent_batch:Saved the agent to results/sac/HalfCheetah-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-6c7b0316/best

@@ -26,10 +26,9 @@ def main():
     parser.add_argument(
         "--outdir",
         type=str,
-        default="results",
+        default="results/demonstrations/sac",
         help=(
             "Directory path to save output files."
-            " If it does not exist, it will be created."
         ),
     )
     parser.add_argument(
@@ -55,55 +54,22 @@ def main():
         help="Total number of timesteps to train the agent.",
     )
     parser.add_argument(
-        "--eval-n-runs",
-        type=int,
-        default=10,
-        help="Number of episodes run for each evaluation.",
-    )
-    parser.add_argument(
-        "--eval-interval",
-        type=int,
-        default=5000,
-        help="Interval in timesteps between evaluations.",
-    )
-    parser.add_argument(
-        "--replay-start-size",
-        type=int,
-        default=10000,
-        help="Minimum replay buffer size before " + "performing gradient updates.",
-    )
-    parser.add_argument("--batch-size", type=int, default=256, help="Minibatch size")
-    parser.add_argument(
         "--render", action="store_true", help="Render env states in a GUI window."
     )
     parser.add_argument(
         "--demo", action="store_true", help="Just run evaluation, not training."
     )
-    parser.add_argument("--load-pretrained", action="store_true", default=False)
     parser.add_argument(
         "--pretrained-type", type=str, default="best", choices=["best", "final"]
     )
     parser.add_argument(
         "--monitor", action="store_true", help="Wrap env with gym.wrappers.Monitor."
     )
-    parser.add_argument(
-        "--log-interval",
-        type=int,
-        default=1000,
-        help="Interval in timesteps between outputting log messages during training",
-    )
+   
     parser.add_argument(
         "--log-level", type=int, default=logging.INFO, help="Level of the root logger."
     )
-    parser.add_argument(
-        "--policy-output-scale",
-        type=float,
-        default=1.0,
-        help="Weight initialization scale of policy output.",
-    )
-    parser.add_argument(
-        "--checkpoint_freq", type=int, default=100000, help="Level of the root logger."
-    )
+   
     args = parser.parse_args()
 
     logging.basicConfig(level=args.log_level)
@@ -228,19 +194,8 @@ def main():
         temperature_optimizer_lr=3e-4,
     )
 
-    if len(args.load) > 0 or args.load_pretrained:
-        if args.load_pretrained:
-            raise Exception("Pretrained models are currently unsupported.")
-        # either load or load_pretrained must be false
-        assert not len(args.load) > 0 or not args.load_pretrained
-        if len(args.load) > 0:
-            agent.load(args.load)
-        else:
-            agent.load(
-                utils.download_model("SAC", args.env, model_type=args.pretrained_type)[
-                    0
-                ]
-            )
+    if len(args.load) > 0:
+        agent.load(args.load)
 
     if args.demo:
         eval_stats = experiments.eval_performance(
@@ -248,7 +203,6 @@ def main():
             agent=agent,
             n_steps=None,
             n_episodes=args.eval_n_runs,
-            max_episode_len=timestep_limit,
         )
         print(
             "n_runs: {} mean: {} median: {} stdev {}".format(
@@ -258,21 +212,5 @@ def main():
                 eval_stats["stdev"],
             )
         )
-    else:
-        experiments.train_agent_batch_with_evaluation(
-            agent=agent,
-            env=make_batch_env(test=False),
-            eval_env=make_batch_env(test=True),
-            outdir=args.outdir,
-            steps=args.steps,
-            eval_n_steps=None,
-            eval_n_episodes=args.eval_n_runs,
-            eval_interval=args.eval_interval,
-            log_interval=args.log_interval,
-            max_episode_len=timestep_limit,
-            checkpoint_freq=args.checkpoint_freq
-        )
-
-
 if __name__ == "__main__":
     main()

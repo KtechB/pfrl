@@ -1,0 +1,180 @@
+Output files are saved in results/sac/Walker2d-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-66cf37b0
+Observation space: Box(17,)
+Action space: Box(6,)
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/Walker2d-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-66cf37b0 step:5000 episode:249 last_R: 21.58283570545266 average_R:2.2544276358584496
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', nan), ('average_q2', nan), ('average_q_func1_loss', nan), ('average_q_func2_loss', nan), ('n_updates', 0), ('average_entropy', nan), ('temperature', 1.0)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 21 R: 1.3819633939768274
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 22 R: 1.5394547885791794
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 22 R: 2.4808330796006994
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 22 R: 1.622646383861687
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 22 R: 1.427036572167062
+INFO:pfrl.experiments.train_agent_batch:The best score is updated -3.4028235e+38 -> 1.690386843637091
+INFO:pfrl.experiments.train_agent_batch:Saved the agent to results/sac/Walker2d-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-66cf37b0/best
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/Walker2d-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-66cf37b0 step:10000 episode:499 last_R: -3.6265523576963132 average_R:1.7136684804415865
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 0.0028426144), ('average_q2', 0.41758984), ('average_q_func1_loss', 66.62702941894531), ('average_q_func2_loss', 68.34906005859375), ('n_updates', 1), ('average_entropy', -7.716922), ('temperature', 1.0003000497817993)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 24 R: 2.1967181713957227
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 23 R: 3.263157258733369
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 23 R: 3.017824928797045
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 24 R: 4.144161576018001
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 23 R: 3.368444887691424
+INFO:pfrl.experiments.train_agent_batch:The best score is updated 1.690386843637091 -> 3.1980613645271125
+INFO:pfrl.experiments.train_agent_batch:Saved the agent to results/sac/Walker2d-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-66cf37b0/best
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/Walker2d-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-66cf37b0 step:15000 episode:538 last_R: 76.30355534437051 average_R:26.95309944151474
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 50.17377), ('average_q2', 50.23897), ('average_q_func1_loss', 5.553448917865754), ('average_q_func2_loss', 5.833534076213836), ('n_updates', 5001), ('average_entropy', 1.1088465), ('temperature', 0.3102112114429474)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 1000 R: 975.6171312342792
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 1000 R: 967.9844060769817
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 1000 R: 965.9308555394933
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 1000 R: 972.1027580714771
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 1000 R: 967.5969355921461
+INFO:pfrl.experiments.train_agent_batch:The best score is updated 3.1980613645271125 -> 969.8464173028755
+INFO:pfrl.experiments.train_agent_batch:Saved the agent to results/sac/Walker2d-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-66cf37b0/best
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/Walker2d-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-66cf37b0 step:20000 episode:563 last_R: 15.239144898290938 average_R:75.87380324653613
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 66.81849), ('average_q2', 66.74981), ('average_q_func1_loss', 7.600951232910156), ('average_q_func2_loss', 8.071168432235718), ('n_updates', 10001), ('average_entropy', -1.0383738), ('temperature', 0.10996305197477341)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 228 R: 367.8261074256496
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 265 R: 280.0125927175101
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 167 R: 325.135664104422
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 144 R: 251.89832627506644
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 123 R: 24.693213789080346
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/Walker2d-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-66cf37b0 step:25000 episode:584 last_R: 629.1957951636581 average_R:116.65519820657556
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 77.133736), ('average_q2', 77.154015), ('average_q_func1_loss', 8.46504294872284), ('average_q_func2_loss', 8.577149205207824), ('n_updates', 15001), ('average_entropy', -4.6076975), ('temperature', 0.047948241233825684)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 225 R: 390.0003960095525
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 189 R: 144.6417686968609
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 213 R: 276.8503296488894
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 182 R: 333.2638602187087
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 377 R: 525.5733390738214
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/Walker2d-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-66cf37b0 step:30000 episode:609 last_R: -49.128456679623284 average_R:191.68046421443904
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 92.261215), ('average_q2', 91.99534), ('average_q_func1_loss', 10.578066363334656), ('average_q_func2_loss', 10.865984315872192), ('n_updates', 20001), ('average_entropy', -6.2499285), ('temperature', 0.04192434251308441)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 139 R: 88.23342615195747
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 280 R: 257.6642449696914
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 90 R: 87.46216982198774
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 113 R: 127.60916723856637
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 119 R: 98.27312409610408
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/Walker2d-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-66cf37b0 step:35000 episode:636 last_R: 129.6159034034461 average_R:234.5043230486522
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 99.10372), ('average_q2', 99.326065), ('average_q_func1_loss', 12.040228390693665), ('average_q_func2_loss', 11.97692150592804), ('n_updates', 25001), ('average_entropy', -6.641373), ('temperature', 0.03803860768675804)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 474 R: 352.8548910650221
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 391 R: 522.7158491798923
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 316 R: 160.0856304261934
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 319 R: 371.20152357122566
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 258 R: 123.09040096794986
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/Walker2d-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-66cf37b0 step:40000 episode:660 last_R: 301.3039580017169 average_R:263.45674009862336
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 105.21972), ('average_q2', 105.8763), ('average_q_func1_loss', 10.519696168899536), ('average_q_func2_loss', 9.981683526039124), ('n_updates', 30001), ('average_entropy', -5.878093), ('temperature', 0.03526105359196663)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 201 R: 313.35417169744443
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 204 R: 322.4566520573345
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 170 R: 314.6981634225315
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 225 R: 343.6237959330016
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 162 R: 240.60087168065115
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/Walker2d-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-66cf37b0 step:45000 episode:681 last_R: 241.15716620537054 average_R:310.96300866304074
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 106.02093), ('average_q2', 105.89887), ('average_q_func1_loss', 9.441858148574829), ('average_q_func2_loss', 9.13740382194519), ('n_updates', 35001), ('average_entropy', -6.193338), ('temperature', 0.03480855002999306)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 162 R: 322.4583122294703
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 250 R: 222.75617057733857
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 161 R: 238.47896123264402
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 184 R: 403.3871761467966
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 176 R: 323.29519124279545
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/Walker2d-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-66cf37b0 step:50000 episode:707 last_R: 290.3156543476199 average_R:302.10929830790303
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 107.76298), ('average_q2', 107.7052), ('average_q_func1_loss', 8.831414909362794), ('average_q_func2_loss', 8.90121467590332), ('n_updates', 40001), ('average_entropy', -6.438529), ('temperature', 0.03476419299840927)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 146 R: 237.24943475546797
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 171 R: 301.44665059725145
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 144 R: 240.31969867428842
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 157 R: 279.8570527379784
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 147 R: 257.0904634101501
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/Walker2d-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-66cf37b0 step:55000 episode:735 last_R: 70.52957051315839 average_R:305.93615377301023
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 109.87673), ('average_q2', 110.284325), ('average_q_func1_loss', 8.81413254737854), ('average_q_func2_loss', 8.679078893661499), ('n_updates', 45001), ('average_entropy', -5.5045786), ('temperature', 0.03316713497042656)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 295 R: 423.07512706006
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 267 R: 367.5204242609343
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 190 R: 321.88261831440064
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 522 R: 546.3007298799054
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 496 R: 474.5099086709271
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/Walker2d-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-66cf37b0 step:60000 episode:759 last_R: 276.4147208628444 average_R:303.32570857244707
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 108.91628), ('average_q2', 108.883545), ('average_q_func1_loss', 8.159199390411377), ('average_q_func2_loss', 8.14492193698883), ('n_updates', 50001), ('average_entropy', -5.9973135), ('temperature', 0.03288764879107475)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 135 R: 263.5155364575814
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 161 R: 303.58166917898825
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 275 R: 451.1463949942555
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 285 R: 497.95849152596406
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 218 R: 354.2426242447903
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/Walker2d-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-66cf37b0 step:65000 episode:786 last_R: 273.86735438298984 average_R:288.9135444200901
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 109.20014), ('average_q2', 109.0591), ('average_q_func1_loss', 7.131391186714172), ('average_q_func2_loss', 6.961841607093811), ('n_updates', 55001), ('average_entropy', -5.9390283), ('temperature', 0.03165878728032112)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 212 R: 388.08192934909914
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 143 R: 283.7166138354961
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 156 R: 281.3951200762402
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 183 R: 315.5977645547531
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 232 R: 449.17222962376604
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/Walker2d-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-66cf37b0 step:70000 episode:808 last_R: 17.796246221434718 average_R:304.0429510439683
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 106.96282), ('average_q2', 107.05321), ('average_q_func1_loss', 7.248246831893921), ('average_q_func2_loss', 7.399647064208985), ('n_updates', 60001), ('average_entropy', -6.001995), ('temperature', 0.030258266255259514)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 160 R: 260.0675820291748
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 111 R: 171.1902306900968
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 213 R: 369.34610589457327
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 165 R: 339.7130277493799
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 197 R: 388.57461576090776
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/Walker2d-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-66cf37b0 step:75000 episode:834 last_R: 244.4274655363794 average_R:302.19389656958896
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 104.62022), ('average_q2', 104.73524), ('average_q_func1_loss', 7.480204820632935), ('average_q_func2_loss', 7.298688869476319), ('n_updates', 65001), ('average_entropy', -5.7799063), ('temperature', 0.03140672668814659)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 161 R: 299.70464790341947
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 195 R: 331.7851544246604
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 168 R: 322.54598784256694
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 221 R: 414.6051733823315
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 189 R: 335.8568219928057
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/Walker2d-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-66cf37b0 step:80000 episode:854 last_R: 299.4459385388207 average_R:329.29451322773343
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 104.302155), ('average_q2', 104.29113), ('average_q_func1_loss', 6.644587516784668), ('average_q_func2_loss', 6.487473602294922), ('n_updates', 70001), ('average_entropy', -5.7986827), ('temperature', 0.030411267653107643)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 259 R: 549.2213976138866
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 326 R: 672.4591706735301
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 263 R: 544.5951060491036
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 338 R: 660.1556035309883
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 285 R: 511.761612463399
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/Walker2d-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-66cf37b0 step:85000 episode:876 last_R: 648.5866357249074 average_R:344.98245191413895
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 102.92458), ('average_q2', 102.97981), ('average_q_func1_loss', 6.065882556438446), ('average_q_func2_loss', 6.019771685600281), ('n_updates', 75001), ('average_entropy', -5.976208), ('temperature', 0.028656531125307083)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 249 R: 429.14898928189905
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 146 R: 202.4181476632584
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 252 R: 541.4907478712591
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 420 R: 743.88518514819
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 454 R: 579.5004667859829
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/Walker2d-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-66cf37b0 step:90000 episode:902 last_R: 256.4485561446582 average_R:343.58523477522095
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 103.22536), ('average_q2', 103.19865), ('average_q_func1_loss', 6.281943740844727), ('average_q_func2_loss', 6.187804441452027), ('n_updates', 80001), ('average_entropy', -5.9918027), ('temperature', 0.028347235172986984)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 187 R: 332.5538120522281
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 320 R: 462.67050459989554
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 160 R: 298.12380069670087
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 243 R: 432.6148585720889
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 308 R: 497.7225700110897
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/Walker2d-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-66cf37b0 step:95000 episode:926 last_R: 527.6719075943777 average_R:362.4720490696213
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 102.90981), ('average_q2', 102.800514), ('average_q_func1_loss', 6.106281051635742), ('average_q_func2_loss', 6.035850138664245), ('n_updates', 85001), ('average_entropy', -5.9787745), ('temperature', 0.028115306049585342)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 117 R: 25.568384242089532
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 131 R: 19.06330548333191
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 101 R: 139.22554374534536
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 83 R: 78.96092413028066
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 210 R: 7.733371055714078
+INFO:pfrl.experiments.train_agent_batch:Saved the agent to results/sac/Walker2d-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-66cf37b0/100000_checkpoint
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/Walker2d-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-66cf37b0 step:100000 episode:946 last_R: 326.22675312141274 average_R:373.35189761526823
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 103.56181), ('average_q2', 103.743034), ('average_q_func1_loss', 5.714535586833954), ('average_q_func2_loss', 5.973680853843689), ('n_updates', 90001), ('average_entropy', -5.81521), ('temperature', 0.029308123514056206)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 254 R: 467.7603266055664
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 185 R: 346.89769050912656
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 231 R: 380.97350057680154
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 170 R: 360.4368867013451
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 286 R: 436.0166236369817
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/Walker2d-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-66cf37b0 step:105000 episode:964 last_R: 601.3001516509529 average_R:388.55550923721853
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 104.380905), ('average_q2', 104.07644), ('average_q_func1_loss', 6.204650757312774), ('average_q_func2_loss', 6.032221987247467), ('n_updates', 95001), ('average_entropy', -5.952775), ('temperature', 0.028891798108816147)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 585 R: 1073.9392863298785
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 220 R: 433.9531389327326
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 295 R: 569.9327573321698
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 218 R: 401.2702794797685
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 688 R: 1288.6170674439245
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/Walker2d-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-66cf37b0 step:110000 episode:984 last_R: 1330.395382965985 average_R:423.5399132396395
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 107.07282), ('average_q2', 107.04003), ('average_q_func1_loss', 5.698763461112976), ('average_q_func2_loss', 5.608849287033081), ('n_updates', 100001), ('average_entropy', -6.5803843), ('temperature', 0.02852804586291313)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 993 R: 1776.9523499943991
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 206 R: 255.08780793656908
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 748 R: 1142.2973003995132
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 982 R: 1307.425767858866
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 348 R: 529.2791101524718
+INFO:pfrl.experiments.train_agent_batch:The best score is updated 969.8464173028755 -> 1002.2084672683638
+INFO:pfrl.experiments.train_agent_batch:Saved the agent to results/sac/Walker2d-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-66cf37b0/best
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/Walker2d-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-66cf37b0 step:115000 episode:1007 last_R: 761.4614297143022 average_R:444.03334844552097
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 108.38636), ('average_q2', 108.25682), ('average_q_func1_loss', 6.032709527015686), ('average_q_func2_loss', 6.208170745372772), ('n_updates', 105001), ('average_entropy', -5.869911), ('temperature', 0.03156821429729462)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 264 R: 581.351784463961
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 293 R: 772.6201314526095
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 344 R: 809.0949857136022
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 141 R: 105.01634406677996
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 256 R: 511.2107743935652
+INFO:pfrl.experiments.train_agent_batch:outdir:results/sac/Walker2d-v2/9be4726d327b7ce32d9008c40119c98c93febad5-7b2a99a4-66cf37b0 step:120000 episode:1026 last_R: 1375.5678024414556 average_R:472.4690196239097
+INFO:pfrl.experiments.train_agent_batch:statistics: [('average_q1', 108.3949), ('average_q2', 108.3299), ('average_q_func1_loss', 5.936074485778809), ('average_q_func2_loss', 5.888914260864258), ('n_updates', 110001), ('average_entropy', -6.3329725), ('temperature', 0.03125579655170441)]
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 0 length: 95 R: 172.01879771585536
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 1 length: 134 R: 303.30347571727293
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 2 length: 187 R: 396.67376113836457
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 3 length: 95 R: 166.39462334341079
+INFO:pfrl.experiments.train_agent_batch:evaluation episode 4 length: 158 R: 357.1557289689235
