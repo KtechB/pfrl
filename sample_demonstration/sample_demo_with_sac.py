@@ -2,7 +2,8 @@
 
 This script follows the settings of https://arxiv.org/abs/1812.05905 as much
 as possible.
-"""
+i"""
+import os
 import argparse
 import functools
 import logging
@@ -18,19 +19,21 @@ from torch import distributions, nn
 import pfrl
 from pfrl import experiments, replay_buffers, utils
 from pfrl.nn.lmbda import Lambda
+from .sample_demo import sample_demonstration
 
 
 def main():
 
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "--outdir",
+        "--outrootdir",
         type=str,
-        default="results/demonstrations/sac",
+        default="results/demonstrations",
         help=(
             "Directory path to save output files."
         ),
     )
+    
     parser.add_argument(
         "--env",
         type=str,
@@ -59,23 +62,22 @@ def main():
     parser.add_argument(
         "--demo", action="store_true", help="Just run evaluation, not training."
     )
-    parser.add_argument(
-        "--pretrained-type", type=str, default="best", choices=["best", "final"]
-    )
+
     parser.add_argument(
         "--monitor", action="store_true", help="Wrap env with gym.wrappers.Monitor."
     )
-   
     parser.add_argument(
-        "--log-level", type=int, default=logging.INFO, help="Level of the root logger."
+        "--log-level", type=int, default=logging.WARNING, help="Level of the root logger."
+    )
+
+    parser.add_argument(
+        "--n_episodes", type=int, default=10, help="Number of envs run in parallel."
     )
    
     args = parser.parse_args()
 
     logging.basicConfig(level=args.log_level)
 
-    args.outdir = experiments.prepare_output_dir(args, args.outdir, argv=sys.argv)
-    print("Output files are saved in {}".format(args.outdir))
 
     # Set a random seed used in PFRL
     utils.set_random_seed(args.seed)
@@ -100,7 +102,7 @@ def main():
         # Normalize action space to [-1, 1]^n
         env = pfrl.wrappers.NormalizeActionSpace(env)
         if args.monitor:
-            env = gym.wrappers.Monitor(env, args.outdir)
+            env = gym.wrappers.Monitor(env, args.outdir,video_callable=(lambda ep: ep % 1 == 0))
         if args.render:
             env = pfrl.wrappers.Render(env)
         return env
@@ -196,21 +198,9 @@ def main():
 
     if len(args.load) > 0:
         agent.load(args.load)
+    outdir = args.outrootdir
+    print("save to :",outdir)
 
-    if args.demo:
-        eval_stats = experiments.eval_performance(
-            env=make_batch_env(test=True),
-            agent=agent,
-            n_steps=None,
-            n_episodes=args.eval_n_runs,
-        )
-        print(
-            "n_runs: {} mean: {} median: {} stdev {}".format(
-                args.eval_n_runs,
-                eval_stats["mean"],
-                eval_stats["median"],
-                eval_stats["stdev"],
-            )
-        )
+    sample_demonstration(sample_env, agent, args.n_episodes, outdir, model_path = args.load,max_episode_len=timestep_limit)
 if __name__ == "__main__":
     main()
