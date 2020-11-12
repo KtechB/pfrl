@@ -22,7 +22,7 @@ def sample_one_epis(env, agent, max_episode_len=None):
             R += r
             t += 1
             
-            reset = done or t == max_episode_len #or info.get("needs_reset", False)
+            reset = done or t == max_episode_len+1 #or info.get("needs_reset", False)
             agent.observe(obs, r, done, reset)
             if done or reset:
                 break

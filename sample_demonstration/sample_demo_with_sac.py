@@ -19,14 +19,73 @@ from torch import distributions, nn
 import pfrl
 from pfrl import experiments, replay_buffers, utils
 from pfrl.nn.lmbda import Lambda
-from .sample_demo import sample_demonstration
+# from sample_demonstration.sample_demo import sample_demonstration
 
+import numpy as np
+import os
+import pickle
 
+def sample_one_epis(env, agent, max_episode_len=None):
+    env.spec.timestep_limit = max_episode_len
+    with agent.eval_mode():
+        obs = []
+        acs =[]
+        rews = []
+        dones = []
+        
+
+        epis_num =0
+        o = env.reset()
+        R = 0
+        t = 0
+        epis_num +=1
+        while True:
+            a = agent.act(o)
+            next_o, r, done, _ = env.step(a)
+            R += r
+            t += 1
+            obs.append(o)
+            acs.append(a)
+            rews.append(r)
+            dones.append(done)
+            o = next_o
+            
+            reset = done  or t == max_episode_len+1 #or info.get("needs_reset", False)
+            agent.observe(o, r, done, reset)
+            if done or reset:
+                break
+    
+    epi = dict(
+        obs=np.array(obs, dtype='float32'),
+        acs=np.array(acs, dtype='float32'),
+        rews=np.array(rews, dtype='float32'),
+        dones=np.array(dones, dtype='float32'),
+    )
+    return epi, t, R  
+
+def sample_demonstration(env, agent,  n_episodes, outputdir, model_path, max_episode_len=None):
+    demo_name = "demonstrations.pkl"
+    epis = []
+    epi_len_list =[]
+    rew_sum_list = []
+    os.makedirs(outputdir, exist_ok=True)
+    
+    for i in range(n_episodes):
+        epi, epi_length, rew_sum = sample_one_epis(env, agent, max_episode_len)
+        epis.append(epi)
+        epi_len_list.append(epi_length)
+        rew_sum_list.append(rew_sum)
+
+    with open(os.path.join(outputdir,demo_name ), "wb") as f:
+        pickle.dump(epis, f)
+    log_message = outputdir.split("/")[-1] + "  rewards:" + str(rew_sum_list)  + "\n"+ " polpath:"+ model_path + "\n"
+    with open(os.path.join(outputdir, "reward_logs.txt"), mode = "a") as f:
+        f.write(log_message)
 def main():
 
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "--outrootdir",
+        "--outdir",
         type=str,
         default="results/demonstrations",
         help=(
@@ -71,6 +130,12 @@ def main():
     )
 
     parser.add_argument(
+        "--policy-output-scale",
+        type=float,
+        default=1.0,
+        help="Weight initialization scale of policy output.",
+    )
+    parser.add_argument(
         "--n_episodes", type=int, default=10, help="Number of envs run in parallel."
     )
    
@@ -92,7 +157,7 @@ def main():
         env = gym.make(args.env)
         # Unwrap TimiLimit wrapper
         assert isinstance(env, gym.wrappers.TimeLimit)
-        env = env.env
+        # env = env.env
         # Use different random seeds for train and test envs
         process_seed = int(process_seeds[process_idx])
         env_seed = 2 ** 32 - 1 - process_seed if test else process_seed
@@ -102,7 +167,7 @@ def main():
         # Normalize action space to [-1, 1]^n
         env = pfrl.wrappers.NormalizeActionSpace(env)
         if args.monitor:
-            env = gym.wrappers.Monitor(env, args.outdir,video_callable=(lambda ep: ep % 1 == 0))
+            env = gym.wrappers.Monitor(env, args.outdir+"/video",video_callable=(lambda ep: ep % 1 == 0),force=True)
         if args.render:
             env = pfrl.wrappers.Render(env)
         return env
@@ -188,9 +253,9 @@ def main():
         q_func2_optimizer,
         rbuf,
         gamma=0.99,
-        replay_start_size=args.replay_start_size,
+        replay_start_size=10000,
         gpu=args.gpu,
-        minibatch_size=args.batch_size,
+        minibatch_size=256,
         burnin_action_func=burnin_action_func,
         entropy_target=-action_size,
         temperature_optimizer_lr=3e-4,
@@ -198,7 +263,7 @@ def main():
 
     if len(args.load) > 0:
         agent.load(args.load)
-    outdir = args.outrootdir
+    outdir = args.outdir
     print("save to :",outdir)
 
     sample_demonstration(sample_env, agent, args.n_episodes, outdir, model_path = args.load,max_episode_len=timestep_limit)
